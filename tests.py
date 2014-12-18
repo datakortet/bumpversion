@@ -64,12 +64,13 @@ def _mock_calls_to_string(called_mock):
 
 
 EXPECTED_USAGE = ("""
-usage: py.test [-h] [--config-file FILE] [--verbose] [--list] [--allow-dirty]
-               [--parse REGEX] [--serialize FORMAT] [--search SEARCH]
-               [--replace REPLACE] [--current-version VERSION] [--dry-run]
-               --new-version VERSION [--commit | --no-commit]
-               [--tag | --no-tag] [--tag-name TAG_NAME] [--message COMMIT_MSG]
-               part [file [file ...]]
+usage: bumpversion [-h] [--config-file FILE] [--verbose] [--list]
+                   [--allow-dirty] [--parse REGEX] [--serialize FORMAT]
+                   [--search SEARCH] [--replace REPLACE]
+                   [--current-version VERSION] [--dry-run] --new-version
+                   VERSION [--commit | --no-commit] [--tag | --no-tag]
+                   [--tag-name TAG_NAME] [--message COMMIT_MSG]
+                   part [file [file ...]]
 
 %s
 

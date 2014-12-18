@@ -813,6 +813,7 @@ def main(original_args=None):
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
         conflict_handler='resolve',
         parents=[parser2],
+        prog="bumpversion"
     )
 
     parser3.set_defaults(**defaults)
